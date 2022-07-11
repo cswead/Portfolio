@@ -1,3 +1,9 @@
+h1,
+p {
+  text-align: center;
+  display: block;
+}
+
 .homepageBanner {
   margin-top: 100px;
 }
@@ -8,4 +14,8 @@
   height: 350px;
   padding: 20px;
   border-radius: 12px;
+}
+.linkTitle {
+  display: flex;
+  justify-content: center;
 }
