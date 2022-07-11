@@ -4,7 +4,8 @@
 
 .titleImage {
   display: flex;
-  width: 100%;
-  height: auto;
+  width: 560px;
+  height: 350px;
   padding: 20px;
+  border-radius: 12px;
 }
