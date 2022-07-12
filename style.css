@@ -1,20 +1,68 @@
-h1 {
-  text-align: center;
-  display: block;
-  font-family: "Nunito", sans-serif;
-}
-
 .homepageBanner {
-  margin-top: 100px;
+  position: relative;
+}
+.heroImage {
+  position: absolute;
+  width: 1440px;
+  height: 265px;
+  left: 0px;
+  top: 90px;
+
+  background: linear-gradient(
+      180deg,
+      rgba(0, 0, 0, 0.5) 0%,
+      rgba(0, 0, 0, 0.2) 100%
+    ),
+    url(Media/heroimagePainting.jpg);
+}
+.heroName {
+  position: absolute;
+  width: 571px;
+  height: 98px;
+  left: calc(50% - 571px / 2 - 0.5px);
+  top: 130px;
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 72px;
+  line-height: 98px;
+  text-align: center;
+
+  color: #ffffff;
+}
+.subtitle {
+  position: absolute;
+  width: 560px;
+  height: 70px;
+  left: calc(50% - 560px / 2 - 1px);
+  top: 220px;
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 35px;
+  text-align: center;
+  color: #ffffff;
+}
+.contentTiles {
+  margin-top: 400px;
+  margin-left: 140px;
+  margin-right: 140px;
 }
 
 .titleImage {
   display: flex;
+  justify-content: space-around;
+  position: inherit;
   width: 560px;
   height: 350px;
-  padding: 20px;
   border-radius: 12px;
+  flex: none;
+  order: 0;
+  align-self: stretch;
+  flex-grow: 0px;
 }
+
 .linkTitle {
   display: flex;
   justify-content: center;
