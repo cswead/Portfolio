@@ -1,3 +1,12 @@
+.navbar {
+  font-family: "Nunito";
+  background-color: #ffffff !important;
+}
+.nav-link {
+  font-size: 16px;
+  line-height: 22px;
+}
+
 .homepageBanner {
   position: relative;
 }
@@ -32,9 +41,9 @@
 }
 .subtitle {
   position: absolute;
-  width: 560px;
+  width: 100%;
   height: 70px;
-  left: calc(50% - 560px / 2 - 1px);
+
   top: 220px;
   font-family: "Nunito";
   font-style: normal;
@@ -44,6 +53,9 @@
   text-align: center;
   color: #ffffff;
 }
+.container {
+  margin-top: 400px;
+}
 .contentTiles {
   margin-top: 400px;
   margin-left: 140px;
@@ -51,8 +63,6 @@
 }
 
 .titleImage {
-  display: flex;
-  justify-content: space-around;
   position: inherit;
   width: 560px;
   height: 350px;
@@ -69,6 +79,9 @@
   font-family: "Nunito", sans-serif;
   color: black;
   text-decoration: none;
+  width: 560px;
+  margin-top: 20px;
+  margin-bottom: 50px;
 }
 
 p {
