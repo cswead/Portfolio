@@ -20,6 +20,7 @@
   padding: 0px;
   height: 265px;
   left: 0px;
+  right: 0px;
   top: 90px;
   background: linear-gradient(
       180deg,
@@ -74,6 +75,7 @@
   order: 0;
   align-self: stretch;
   flex-grow: 0px;
+  margin-right: 10px;
 }
 
 .linkTitle {
@@ -87,13 +89,30 @@
   margin-bottom: 50px;
 }
 
-p {
-  text-align: center;
-  display: block;
-}
 a,
 a:link,
 a:active,
 a:hover {
   text-decoration: none;
+}
+
+@media (max-width: 400px) {
+  .heroImage {
+    width: 100%;
+  }
+  .titleImage {
+    width: 100%;
+  }
+  .linkTitle {
+    width: 100%;
+  }
+  .heroName {
+    width: 100%;
+    font-size: 60px;
+    text-align: center;
+    left: 10px;
+  }
+  .subtitle {
+    display: none !important;
+  }
 }
