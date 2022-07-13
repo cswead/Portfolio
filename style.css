@@ -221,7 +221,7 @@ a:hover {
 }
 
 .contactdetail {
-  idth: 423px;
+  width: 423px;
   height: 30px;
   font-family: "Nunito";
   font-style: normal;
@@ -291,5 +291,8 @@ a:hover {
   }
   .allcontact {
     margin-top: 10px !important;
+  }
+  .contactdetail {
+    margin-bottom: 10px;
   }
 }
