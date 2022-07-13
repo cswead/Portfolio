@@ -189,6 +189,9 @@ a:hover {
 .subtitleSubPage {
   display: flex;
   justify-content: center;
+  padding-left: 30px;
+  padding-right: 30px;
+  text-align: center;
   margin-top: 250px;
   margin-bottom: 0px;
   font-family: "Nunito";
@@ -211,6 +214,7 @@ a:hover {
   display: flex;
   justify-content: center;
 }
+
 /* Responsive Changes  */
 
 @media (max-width: 400px) {
