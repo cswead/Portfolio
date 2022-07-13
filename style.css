@@ -215,6 +215,40 @@ a:hover {
   justify-content: center;
 }
 
+/* contact Page  */
+.allcontact {
+  margin-top: 450px !important;
+}
+
+.contactdetail {
+  idth: 423px;
+  height: 30px;
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 30px;
+  color: #272142;
+  margin-bottom: 74px;
+}
+
+.contactTitle {
+  width: 87px;
+  height: 25px;
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 25px;
+  text-transform: uppercase;
+  color: #662eed;
+  margin-bottom: 20px;
+}
+
+.fa-solid {
+  margin-right: 10px;
+}
+
 /* Responsive Changes  */
 
 @media (max-width: 400px) {
@@ -241,6 +275,7 @@ a:hover {
     height: 25%;
     text-align: center;
     margin-top: 250px;
+    margin-bottom: 30px;
   }
   .aboutmeContent {
     width: 100%;
@@ -253,5 +288,8 @@ a:hover {
     text-align: center;
     margin-top: 90px;
     left: 0%;
+  }
+  .allcontact {
+    margin-top: 10px !important;
   }
 }
