@@ -60,7 +60,7 @@
 }
 
 .contentTiles {
-  margin-top: 800px;
+  margin: 800 px;
   margin-top: 400px !important;
   margin-left: 140px;
   margin-right: 140px;
@@ -99,7 +99,7 @@ a:hover {
 }
 /* About Page  */
 
-.aboutMeTitle {
+.title {
   display: flex;
 
   justify-content: center;
@@ -184,6 +184,33 @@ a:hover {
   flex-grow: 0;
 }
 
+/* content pages  */
+
+.subtitleSubPage {
+  display: flex;
+  justify-content: center;
+  margin-top: 250px;
+  margin-bottom: 0px;
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 400;
+}
+.imageTiles {
+  display: flex;
+  justify-content: center;
+  width: 300px;
+  height: 200px;
+  border-radius: 12px;
+  flex: none;
+  align-self: stretch;
+  flex-grow: 0px;
+  padding: 10x;
+}
+.subcontentTiles {
+  margin: 20px !important;
+  display: flex;
+  justify-content: center;
+}
 /* Responsive Changes  */
 
 @media (max-width: 400px) {
