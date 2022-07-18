@@ -250,15 +250,6 @@ a:hover {
 }
 /* Footer  */
 
-footer .email-link {
-  text-decoration: none;
-  color: black;
-  font-size: 24px;
-}
-footer.email-link:hover {
-  color: #662eed;
-}
-
 footer {
   display: flex;
   justify-content: center;
@@ -277,6 +268,7 @@ footer {
   width: 14px !important;
   height: 18px !important;
 }
+
 /* Responsive Changes  */
 
 @media (max-width: 400px) {
