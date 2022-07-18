@@ -248,7 +248,35 @@ a:hover {
 .fa-solid {
   margin-right: 10px;
 }
+/* Footer  */
 
+footer .email-link {
+  text-decoration: none;
+  color: black;
+  font-size: 24px;
+}
+footer.email-link:hover {
+  color: #662eed;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  height: 100px;
+  background: #f9f7fe;
+  margin: 0% !important;
+}
+
+.fa-brands {
+  margin-top: 41px;
+  margin-right: 30px;
+  display: flex;
+  justify-content: center;
+}
+.i {
+  width: 14px !important;
+  height: 18px !important;
+}
 /* Responsive Changes  */
 
 @media (max-width: 400px) {
