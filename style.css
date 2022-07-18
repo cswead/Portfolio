@@ -8,6 +8,9 @@
   font-size: 16px;
   line-height: 22px;
 }
+.active {
+  color: #662eed !important;
+}
 
 .homepageBanner {
   display: flex;
