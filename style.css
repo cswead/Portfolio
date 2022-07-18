@@ -7,13 +7,9 @@
 .nav-link {
   font-size: 16px;
   line-height: 22px;
- 
 }
 .active {
   color: #662eed !important;
-}
-
-
 }
 
 .homepageBanner {
@@ -277,10 +273,16 @@ footer {
   height: 18px !important;
 }
 
+.github {
+  margin-top: 41px;
+  margin-right: 30px;
+  display: flex;
+  justify-content: right;
+  padding-left: 80px;
+}
 /* Responsive Changes  */
 
 @media (max-width: 400px) {
- 
   .heroImage {
     width: 100%;
   }
@@ -324,9 +326,9 @@ footer {
   .contactdetail {
     margin-bottom: 10px;
   }
-  .imageTiles{
-  margin-right: 0px;
-  padding-right: 0px;
-  border: 10px;
+  .imageTiles {
+    margin-right: 0px;
+    padding-right: 0px;
+    border: 10px;
   }
 }
